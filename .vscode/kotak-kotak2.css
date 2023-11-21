@@ -1,0 +1,56 @@
+*{
+
+}
+.main3 {
+    width: 200px;
+    height: 100px;
+    background-color: gold;
+    margin-right: 40px;
+    padding-top: 150px;
+    margin-top: 10px;
+    line-height: 0px;
+    border-radius: 50%;
+}
+
+.segitiga2 {
+    width: 0px;
+    height: 0px;
+    border-bottom: solid 120px blue;
+    border-left: solid 80px transparent;
+    border-right: solid 80px transparent;
+    padding-top: 100px;
+    margin-right: 30px;
+    text-indent: -35px;
+   line-height: 150px;
+}
+
+.lingkaran1 {
+    width: 200px;px;
+    height: 200px;
+    background-color: red;
+    padding-top: 50px;
+    margin-right: 30px;
+    margin-top: 40px;
+    line-height: 150px;
+}
+
+.kotak-kotak {
+    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    display: flex;
+}
+
+@keyframes blink {
+    0%{ background-color: aquamarine;}
+    25%{background-color: blue;}
+    50%{background-color: brown;}
+    75%{background-color: blueviolet;}
+
+
+}
+body {animation: blink 2s infinite;}
+.lingkaran1 {animation: blink 1s infinite;}
+.segitiga2{animation: blink 2s infinite;}
+.main3{animation: blink 3s infinite;}

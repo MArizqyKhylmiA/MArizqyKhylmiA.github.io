@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+    padding: 30px 20px;
+}
+li:hover {
+    background-color: brown;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+li a:hover {
+    color: white;
+
+}
+header{
+    width: auto;
+    height: 80px;
+    background-color: blue;
+    padding: 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-right{
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+    float: left;
+}
+body{
+    background-image: url(r1mblue.jpg);
+    background-size: cover;
+}

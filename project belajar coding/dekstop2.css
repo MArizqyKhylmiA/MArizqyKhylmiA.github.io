@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  padding: 20px 30px;
+  float: left;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: red;
+  font-size: 20px;
+  border-radius: 25%;
+  transition: 0.3s;
+}
+
+header {
+  display: flex;
+  background-color: yellow;
+  padding: 20px;
+  justify-content: space-between;
+  border-radius: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+  text-decoration: none;
+}
+
+header:hover{
+  transition: 2s;
+  color: white;
+}
+
+.atas {
+  font-size: 50px;
+}
+
+.teks {
+  text-align: left;
+  margin-top: 50px;
+  font-family: "Edu TAS Beginner", cursive;
+}
+
+body {
+  background-color: rgb(123, 198, 241);
+}
+
+.gambar {
+  float: right;
+  margin-right: 50px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border: 1px dashed grey;
+  border-radius: 40px 0px 40px 0px;
+}
+
+.teks a {
+  background-color: rgb(15, 179, 15);
+  width: 85px;
+  height: 30px;
+  text-decoration: none;
+  border-radius: 0px 30px 0px 30px;
+  padding: 20px;
+  margin-left: 200px;
+  display: inline-block;
+  display: flex;
+}
+
+.btn-next{
+  margin-top: 50px;
+  margin-right: 0px;
+  display: flex;
+}
+
+.atasjudul{
+  text-decoration: none;
+}
+
+.gambar1{
+  width: 200px;
+  margin-top: 50px;
+  margin-left: 30px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border: 1px dashed grey;
+  border-radius: 0px 40px 0px 40px;
+}
